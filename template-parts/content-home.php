@@ -26,7 +26,7 @@
 <div class="hero-text2 headertype2">
 	<h1>Barks &amp; Hugs</h1>
 	<p>Meet your new best friend</p>
-	<button class="buttonhome" style="height: 65px; width: 146px;">Take me home!</button>
+	<button class="buttonhome" style="height: 65px; width: 146px;">Take me home</button>
 </div>
 
 <?php the_content(); ?>

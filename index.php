@@ -17,7 +17,12 @@
  */
 get_header(); ?>
 
-<main class="container">
+<div class="blogtitlecontainer">
+    <h1 class="blogheader">News Blog</h1>
+</div>
+
+<div class="postcontainersize">
+    <main class="container">
 
     <?php
     /* Check if there are any posts in the database. */
@@ -45,6 +50,8 @@ get_header(); ?>
         endwhile;
 
     /* This displays the pagination options (previous/next page). */
+    
+
     the_posts_navigation();
 
     /* Now we choose what gets shown if there are no posts to display. */
@@ -59,7 +66,9 @@ get_header(); ?>
     /* End the posts conditional. */
     endif; ?>
 
-</main>
+  </main>
+</div>
+
 
 <?php
 /* Get the sidebar, which often contains widget areas. */
