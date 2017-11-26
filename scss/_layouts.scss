@@ -32,4 +32,80 @@ html {
   margin-top: -35px;
 }
 
+.adoptform {
+  max-width: 400px;
+  width: 400px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
 
+}
+
+.gform_footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.adoptcontainer {
+    background: #fff;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-left: 9px solid #e57662;
+  border-right: 9px solid #e57662;
+  
+}
+
+.nameform {
+  max-width: 400px;
+}
+
+.dogquote {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  max-width: 720px;
+ 
+  margin: 0 auto;
+}
+
+.spancolor {
+  color: #e57662;
+}
+
+.authorcolor {
+  font-size: 15px;
+
+}
+
+.adjustauthorheight {
+  margin-top: -25px;
+}
+
+
+.dogexample {
+  max-width: 720px;
+ 
+  
+  position: absolute;
+  bottom: -120px;
+  pointer-events: none;
+  margin: 0 auto;
+}
+
+.dogexample img {
+  width: 100%;
+  max-width: 300px;
+ 
+  
+  
+}
+
+@media only screen and (max-width: 800px) {
+    .dogexample {
+        display: none;
+    }
+}

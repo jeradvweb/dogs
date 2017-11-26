@@ -6,7 +6,7 @@
 get_header(); ?>
 
 <div class="blogtitlecontainer">
-    <h1 class="blogheader">Looking for a Home</h1>
+    <h1 class="blogheader">Meet the Dogs</h1>
 </div>
 
 <div class="postcontainersize">
