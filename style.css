@@ -688,6 +688,54 @@ body {
   color: #e57662;
 }
 
+.dogbox {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.floaty {
+  float: left;
+}
+
+.doggrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  grid-gap: 24Spx;
+}
+
+.descriptionshift {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  line-height: 5px;
+  margin-top: -7px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.doginformation {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  border-bottom: 2px solid #eeeeee;
+  border-top: 2px solid #eeeeee;
+  box-shadow: 0px 10px 10px #eeeeee;
+}
+
+.extratypename {
+  font-size: 20px;
+  color: #7b2a3b;
+}
+
+.dogfooternote {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
 .img-fluid {
   height: auto;
   max-width: 100%;
