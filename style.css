@@ -571,13 +571,16 @@ body {
   color: #fff;
 }
 
-.removestyle {
+.buttonhome:hover {
+  background: url(http://barksandhugs.dev/wp-content/uploads/2017/11/takemehome2.png);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border-bottom: 7px solid #7b2a3b;
   border-style: none;
+  color: #fff;
 }
 
-.donateframe {
-  width: 650px;
-  margin: 0 auto;
+.removestyle {
+  border-style: none;
 }
 
 .background-wrap {
@@ -794,6 +797,10 @@ body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.global-nav a:hover {
+  background-color: #7b2a3b;
+}
+
 /* Small menu. */
 .menu-toggle,
 .global-nav.toggled ul {
@@ -865,7 +872,7 @@ html {
   width: 100%;
   margin: 0 auto;
   padding-top: 25px;
-  padding-bottom: 25px;
+  height: 100%;
   border-left: 9px solid #e57662;
   border-right: 9px solid #e57662;
 }
@@ -894,17 +901,93 @@ html {
   margin-top: -25px;
 }
 
-.dogexample {
-  max-width: 720px;
-  position: absolute;
-  bottom: -120px;
-  pointer-events: none;
+.dogadoptinfo {
+  max-width: 400px;
+  width: 400px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 15px;
+  text-align: center;
   margin: 0 auto;
 }
 
+.fosterform {
+  max-width: 400px;
+  width: 400px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.savealife {
+  color: #e57662;
+}
+
+.fostersubhead {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+#gform_submit_button_3 {
+  color: #fff;
+  font-size: 35px;
+}
+
+#gform_submit_button_2 {
+  color: #fff;
+  font-size: 35px;
+}
+
+#gform_submit_button_1 {
+  color: #fff;
+  font-size: 35px;
+}
+
+.gform_button button {
+  color: #e57662;
+}
+
+.gform_footer input {
+  background-color: #e57662;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border-width: 0px;
+  font-size: 30px;
+}
+
+.donateform {
+  max-width: 400px;
+  width: 400px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.puppyimages {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.puppyimages img {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.dogexample {
+  margin: 0 auto;
+  width: 300px;
+}
+
 .dogexample img {
-  width: 100%;
+  text-align: center;
   max-width: 300px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 800px) {

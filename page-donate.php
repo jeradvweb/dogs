@@ -5,7 +5,11 @@
 
 get_header(); ?>
 
-<div class="donateframe">
+<div class="blogtitlecontainer">
+    <h1 class="blogheader">Donate</h1>
+</div>
+
+<div class="adoptcontainer">
 	<?php
 		while ( have_posts() ) : the_post();
 

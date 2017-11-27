@@ -55,6 +55,10 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.global-nav a:hover {
+    background-color: #7b2a3b;
+}
+
 /* Small menu. */
 .menu-toggle,
 .global-nav.toggled ul {

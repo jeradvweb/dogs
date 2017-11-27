@@ -5,17 +5,22 @@
 
 get_header(); ?>
 
+<div class="blogtitlecontainer">
+    <h1 class="blogheader">Become a Foster Parent Today!</h1>
+</div>
 
-
-<?php
-	while ( have_posts() ) : the_post();
+<div class="adoptcontainer">	
+			<?php
+					while ( have_posts() ) : the_post();
 
 		
-		get_template_part( 'template-parts/content', 'blog' );
+						get_template_part( 'template-parts/content', 'foster' );
 
 		
-	endwhile;
-?>
+					endwhile;
+			 ?>	
+</div>
+
 
 
 

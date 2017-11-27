@@ -138,14 +138,18 @@ body {
 	color: #fff;
 }
 
+.buttonhome:hover {
+	background: url(http://barksandhugs.dev/wp-content/uploads/2017/11/takemehome2.png);
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	border-bottom: 7px solid #7b2a3b;
+	border-style: none;
+	color: #fff;
+}
+
 .removestyle {
 	border-style: none;
 }
 
-.donateframe {
-	width: 650px;
-	margin: 0 auto;
-}
 
 .background-wrap {
 	position: fixed;
@@ -307,3 +311,4 @@ body {
 	margin: 0 auto;
 	margin-top: 50px;
 }
+
