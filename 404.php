@@ -8,17 +8,11 @@
 
 get_header(); ?>
 
-<main>
+<main class="notfound">
 	<h1>Page Not Found</h1>
-	<p>Well?</p>
+	<img src="http://barksandhugs.dev/wp-content/uploads/2017/11/barksandhugslogo-03.png" alt="barks and hugs logo">
 
-	<?php
-	/**
-	 * Get a search form for the 404 page.
-	 * It's the least we can do.
-	 */
-	get_search_form();
-	?>
+	
 </main>
 
 <?php

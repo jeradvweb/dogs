@@ -148,7 +148,6 @@ html {
 
 
 
-
 .gform_footer input{
    background-color: #e57662;
    font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -157,6 +156,16 @@ html {
 
    
 }
+
+.gform_footer input:hover{
+   background-color: #7b2a3b;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   border-width: 0px;
+   font-size: 30px;
+
+   
+}
+
 
 .donateform {
   max-width: 400px;
@@ -198,6 +207,31 @@ html {
   
 }
 
+
+.commentcontainer {
+    background: #fff;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  height: 100%;
+  border-left: 9px solid #e57662;
+  border-right: 9px solid #e57662;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+
+  
+}
+
+.commentform {
+  max-width: 400px;
+  width: 400px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+
+}
 
 
 

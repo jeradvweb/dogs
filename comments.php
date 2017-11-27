@@ -19,7 +19,7 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div id="comments">
+<div id="comments" class="commentcontainer">
 
 	<?php
 	/* Check to see if we have comments, and if so, show them. */
