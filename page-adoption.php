@@ -5,12 +5,13 @@
 
 get_header(); ?>
 
-<div class="blogtitlecontainer">
+
+<div class="fixedsizingcontainer">
+	<div class="">
     <h1 class="blogheader">Become a Hero, Adopt Today</h1>
-</div>
+	</div>
 
-
-<div class="adoptcontainer">
+	<div class="">
 	<?php
 		while ( have_posts() ) : the_post();
 
@@ -20,7 +21,15 @@ get_header(); ?>
 		
 		endwhile;
 	?>
+	</div>
+
 </div>
+
+
+
+
+
+
 
 
 

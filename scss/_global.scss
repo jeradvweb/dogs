@@ -1,7 +1,11 @@
 // Styles for global
 
 body {
-	background: #f8e7a2;
+	background: url(http://barksandhugs.dev/wp-content/uploads/2017/11/wallpaper.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bg-white {
@@ -385,6 +389,31 @@ body {
 	
 }
 
+.fixedsizingcontainer {
+  background: #fff;
+  max-width: 720px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  min-height: 100%;
+  border-left: 9px solid #e57662;
+  border-right: 9px solid #e57662;
+  position: static;
+  left: 0;
+  right: 0;
+  min-height: 100vh;
+  max-height: 100%;
+
+  
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 800px) {
     .whowearetext {
   max-width: 500px;
@@ -399,4 +428,10 @@ body {
 
 
 }
+
+	.puppyimages {
+      display: none;
+}
+
+
 }
